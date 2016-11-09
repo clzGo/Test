@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "看看", Toast.LENGTH_SHORT).show();
     }
 }
